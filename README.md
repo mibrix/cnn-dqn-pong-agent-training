@@ -78,7 +78,7 @@ The graph above illustrates the evaluation results of the best-performing model 
 
 **A video demonstrating the agent beating the "standard pong player" without letting a single point to him is available!**
 
-📺 [Watch the agent's flawless victory!](test-video-episode-600.gif)
+![Watch the agent's flawless victory!](test-video-episode-600.mp4)
 
 This video was saved after the 500th training episode, capturing the agent's impressive performance where it outperformed its opponent by 21 points.
 
