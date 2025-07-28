@@ -69,12 +69,12 @@ Despite encountering interruptions, the model that achieved the highest number o
 Evaluation during training was performed every 25th episode.
 
 **Fig. 4. Training performance**
-![Training Performance](training_performance.png)
+![Training Performance](train.png)
 
 The graph above illustrates the evaluation results of the best-performing model recorded during training. The model achieved a mean reward of 12.2 over 10 evaluation episodes.
 
 **Fig. 5. Evaluation performance**
-![Evaluation Performance](evaluation_performance.png)
+![Evaluation Performance](evaluate.png)
 
 **A video demonstrating the agent beating the "standard pong player" without letting a single point to him is available!**
 
