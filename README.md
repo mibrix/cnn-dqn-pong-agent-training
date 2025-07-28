@@ -82,7 +82,7 @@ The graph above illustrates the evaluation results of the best-performing model 
 
 This video was saved after the 500th training episode, capturing the agent's impressive performance where it outperformed its opponent by 21 points.
 
-## III. Discussion
+## II. Discussion
 
 For future work on Pong, it would be beneficial to train the model without limits on the number of rounds. Additionally, exploring different hyperparameters, such as a lower learning rate (e.g., less than 1e-4), holds promise for achieving even better results by reducing the likelihood of overshooting the minimum.
 
