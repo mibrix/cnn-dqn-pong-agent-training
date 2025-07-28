@@ -64,9 +64,17 @@ The following hyperparameters were adhered to as suggested:
 
 Training was conducted multiple times in Google Colab. An initial CPU-only attempt achieved 485 training episodes in approximately 11 hours. Switching to GPU significantly reduced this to about 1 hour and 10 minutes for the same number of episodes.
 
-Despite encountering interruptions, the model that achieved the highest number of episodes, totaling 503, was preserved. Examination of the training graph (Fig. 4 - *not included in markdown but implied in original text*) illustrates a positive correlation between the number of episodes and the mean return, suggesting further improvement could be achieved with extended training. The absence of overfitting indications also supports the potential for enhanced results with additional training.
+Despite encountering interruptions, the model that achieved the highest number of episodes, totaling 503, was preserved. Examination of the training graph illustrates a positive correlation between the number of episodes and the mean return, suggesting further improvement could be achieved with extended training. The absence of overfitting indications also supports the potential for enhanced results with additional training.
 
-Evaluations were performed every 25th episode. The evaluation results of the best-performing model (Fig. 5 - *not included in markdown but implied in original text*) show a mean reward of 12.2 over 10 evaluation episodes.
+Evaluation during training was performed every 25th episode.
+
+**Fig. 4. Training performance**
+![Training Performance](training_performance.png)
+
+The graph above illustrates the evaluation results of the best-performing model recorded during training. The model achieved a mean reward of 12.2 over 10 evaluation episodes.
+
+**Fig. 5. Evaluation performance**
+![Evaluation Performance](evaluation_performance.png)
 
 **A video demonstrating the agent beating the "standard pong player" without letting a single point to him is available!**
 
