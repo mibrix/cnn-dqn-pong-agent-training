@@ -1,6 +1,6 @@
 # Deep Q-Network (DQN) for Pong
 
-## I. Introduction
+## Introduction
 
 This project implements the Deep Q-Network (DQN) introduced by Minh et al. (2015) [1] to learn how to play the classic arcade game Pong.
 
@@ -37,7 +37,7 @@ The agent uses an $\epsilon$-greedy policy, choosing a random action with probab
 
 The network is trained using stochastic gradient descent with the Adam optimizer, minimizing the mean-squared error between predicted Q-values and target Q-values.
 
-## B. Pong
+## Pong
 
 ### 1) Theoretical Introduction
 
@@ -82,7 +82,7 @@ The graph above illustrates the evaluation results of the best-performing model 
 
 This video was saved after the 500th training episode, capturing the agent's impressive performance where it outperformed its opponent by 21 points.
 
-## II. Discussion
+## Discussion
 
 For future work on Pong, it would be beneficial to train the model without limits on the number of rounds. Additionally, exploring different hyperparameters, such as a lower learning rate (e.g., less than 1e-4), holds promise for achieving even better results by reducing the likelihood of overshooting the minimum.
 
